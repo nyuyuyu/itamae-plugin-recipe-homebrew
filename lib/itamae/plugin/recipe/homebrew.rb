@@ -1,3 +1,6 @@
+# coding: utf-8
+# frozen_string_literal: true
+
 require 'itamae/plugin/recipe/homebrew/version'
 
 module Itamae

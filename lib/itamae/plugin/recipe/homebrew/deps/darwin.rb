@@ -1,3 +1,6 @@
+# coding: utf-8
+# frozen_string_literal: true
+
 if node['homebrew']['install_rosetta']
   execute 'Install Rosetta2' do
     user 'root'

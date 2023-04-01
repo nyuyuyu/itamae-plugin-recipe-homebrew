@@ -1,9 +1,10 @@
-if node[:platform] == 'darwin'
-  ENV['PATH'] += ":/opt/homebrew/bin"
-end
+# coding: utf-8
+# frozen_string_literal: true
+
+node[:platform] == 'darwin' && ENV['PATH'] += ':/opt/homebrew/bin'
 
 unless node[:platform] == 'darwin'
-  ['/home/linuxbrew', "#{ENV['HOME']}"].each do |path|
+  ['/home/linuxbrew', ENV['HOME'].to_s].each do |path|
     ENV['PATH'] += ":#{path}/.linuxbrew/bin"
   end
 end
