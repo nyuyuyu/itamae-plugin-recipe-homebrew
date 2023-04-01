@@ -19,4 +19,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "itamae"
 
   spec.add_development_dependency "bundler", ">= 1.3"
+  spec.add_development_dependency "rubocop"
 end
