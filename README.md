@@ -9,8 +9,9 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'itamae-plugin-recipe-homebrew', git: 'https://github.com/nyuyuyu/itamae-plugin-recipe-homebrew.git',
-                                     branch: 'main'
+source 'https://rubygems.pkg.github.com/nyuyuyu' do
+  gem 'itamae-plugin-recipe-homebrew'
+end
 ```
 
 And then execute:
