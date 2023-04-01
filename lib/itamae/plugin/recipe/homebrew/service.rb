@@ -1,3 +1,6 @@
+# coding: utf-8
+# frozen_string_literal: true
+
 if node[:platform] == 'darwin'
   (node['homebrew']['services'] || []).each do |service|
     execute "Start service: #{service}" do

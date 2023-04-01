@@ -1,3 +1,6 @@
+# coding: utf-8
+# frozen_string_literal: true
+
 (node['homebrew']['packages'] || []).each do |package|
   case package
   when String

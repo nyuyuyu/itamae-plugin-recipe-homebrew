@@ -1,3 +1,6 @@
+# coding: utf-8
+# frozen_string_literal: true
+
 include_recipe 'homebrew::setup'
 include_recipe 'homebrew::deps'
 include_recipe 'homebrew::install'

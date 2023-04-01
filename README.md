@@ -1,6 +1,6 @@
 # itamae-plugin-recipe-homebrew
 
-[Itamae](https://github.com/itamae-kitchen/itamae)/[MItamae](https://github.com/itamae-kitchen/mitamae) plugin to install [Homebrew](https://brew.sh/) packages.
+[Itamae](https://github.com/itamae-kitchen/itamae)/[MItamae](https://github.com/itamae-kitchen/mitamae) plugin to install [Homebrew](https://brew.sh/) package.
 
 
 ## Installation
@@ -30,7 +30,7 @@ See https://github.com/itamae-kitchen/mitamae/blob/master/PLUGINS.md#plugins-dir
 
 ### Recipe
 
-Install Homebrew and packages
+Install Homebrew and package
 
 ```ruby
 include_recipe 'homebrew'
